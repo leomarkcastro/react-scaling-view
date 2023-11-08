@@ -1,9 +1,1 @@
-export {
-  SimpleModal,
-  SimpleModalProps,
-  SimpleModalCard,
-  SimpleModalCardProps,
-  closeAllSimpleModals,
-  closeSimpleModal,
-  showSimpleModal,
-} from './components';
+export { ScalingView, ScalingViewProps } from './components';
