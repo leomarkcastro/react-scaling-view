@@ -6,7 +6,7 @@ This is where could use React Scaling View. It takes a dom component and a desir
 
 ## Demo
 
-![Demo](https://user-images.githubusercontent.com/10114716/132134818-8b8b8b0a-5b0a-4b0a-8b0a-0b0a0b0a0b0a.gif)
+![Demo](https://raw.githubusercontent.com/leomarkcastro/react-scaling-view/main/demo.gif)
 
 ## Components
 

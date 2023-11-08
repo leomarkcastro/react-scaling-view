@@ -26,6 +26,7 @@ const excludeExtensions = [
   'story.ts',
   'story.jsx',
   'story.tsx',
+  'gif',
 ];
 
 /** @type {import('postcss').PostCSSPluginConf} */
