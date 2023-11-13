@@ -29,7 +29,7 @@ export interface ScalingViewProps {
 Contains the dialog component.
 
 - `children`: This is the content of the scalable view.
-- `canvasSettings.aspectRatioPreserveOption`: This is the aspect ratio preserve option. The default value is `xMidyMid`. You can read more about this in [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio).
+- `canvasSettings.aspectRatioPreserveOption`: This is the aspect ratio preserve option. The default value is `xMidYMid meet`. You can read more about this in [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio).
 - `canvasSettings.mainWidth`: This is the desired native width of the content. This will set the pixel size of where the children component would be rendered. To resize the actual scalable width, use `propsFor.parentSvg.width` The default value is `100`.
 - `canvasSettings.mainHeight`: This is the desired native height of the content. This will set the pixel size of where the children component would be rendered. To resize the actual scalable height, use `propsFor.parentSvg.height` The default value is `100`.
 - `propsFor.parentSvg`: This will pass the props to the parent svg element.

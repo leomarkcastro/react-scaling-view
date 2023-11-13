@@ -41,13 +41,13 @@ const ScalingView: React.FC<ScalingViewProps> = (props) => {
 
   const svgWidth = otherProps.canvasSettings?.mainWidth ?? 100;
   const svgHeight = otherProps.canvasSettings?.mainHeight ?? 100;
-  const aspectRatioPreserveOption = otherProps.canvasSettings?.aspectRatioPreserveOption ?? 'xMidYMid';
+  const aspectRatioPreserveOption = otherProps.canvasSettings?.aspectRatioPreserveOption ?? 'xMidYMid meet';
 
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox={`0 0 ${svgWidth} ${svgHeight}`}
-      preserveAspectRatio={`${aspectRatioPreserveOption} meet`}
+      preserveAspectRatio={aspectRatioPreserveOption}
       {...(otherProps.propsFor?.parentSvg ?? {})}
       style={{
         ...(otherProps.propsFor?.parentSvg?.style ?? {}),
